@@ -16,5 +16,5 @@ pintf("sizeof int:%lu byte(s)\n", (unsigned long)sizeof(b));
 pintf("sizeof long int:%lu byte(s)\n", (unsigned long)sizeof(c));
 pintf("sizeof long long int:byte(s)\n", (unsigned long)sizeof(d));
 pintf("sizeof float int:byte(s)\n", (unsigned long)sizeof(f));
-return (0);
-}
+retturn (0);
+
