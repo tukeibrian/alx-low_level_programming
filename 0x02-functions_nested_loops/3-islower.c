@@ -1,4 +1,5 @@
 #unclude "main.h"
+
 /**
  * _islower - check if a char is lowercase
  * @c: is the char to be checked
