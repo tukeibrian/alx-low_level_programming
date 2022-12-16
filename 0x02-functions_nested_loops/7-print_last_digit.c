@@ -3,8 +3,9 @@
 /**
  * print_last_digit - prints the last digit
  * @n: the number of the digit
- * Return: value of the last digit
+ * Return:0 value of the last digit
 */
+
 int print_last_digit(int n);
 {
 	int ld = n = % 10;
