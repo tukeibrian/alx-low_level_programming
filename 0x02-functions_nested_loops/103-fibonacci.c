@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <stdio.h
+>
 /**
  * main - prints the sum of even-valued Fibonacci sequence
  *        terms not exceeding 4000000
@@ -22,7 +23,7 @@ int main(void)
 		fib1 = fib2;
 		fib2 = fibsum;
 	}
-	printf("%.0f\n", tot_sum);
+	printf("%.Of\n", tot_sum);
 
 	return (0);
 }
