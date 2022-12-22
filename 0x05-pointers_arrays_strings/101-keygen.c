@@ -1,25 +1,26 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * _atoi - convert a string to an integer
- * @s: pointer to a chatacter string
+ * main - generstes valid random passwords
+ * Return: 0 (on success)
  *
- * Return: void
 */
 
-int _atoi(char *s)
+int main(void)
 {
-	int sign;
-	unsigned int num;
-	char *temp;
+	int pass, sum;
 
-	temp = s;
-	num = 0;
-	sign = 1;
-	while (*temp != '\0' && (*temp < '0' || *temp > '9'))
+	srand(time(NULL));
+	sum = 0;
+	while (sum <= 2645)
 	{
-		if (*temp == '-')
-			sign *= -1;
-		temp++;
+		pass = (rand() % 128);
+		sum += pass;
+		printf("%c", pass);
 	}
-	if  (*temp 						
+	printf("%c", 2772 - sum);
+
+	return (0);
+}
