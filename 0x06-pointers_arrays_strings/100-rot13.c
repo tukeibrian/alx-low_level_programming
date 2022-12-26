@@ -21,8 +21,8 @@ char *rot13(char *s)
 		{
 			if (s[i] == data1[j])
 			{
-				if s[i] - datarot[j];
-				break;
+				if( s[i] - datarot[j])
+					break;
 			}
 		}
 	}
