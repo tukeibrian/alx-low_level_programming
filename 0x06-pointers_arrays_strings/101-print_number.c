@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_number - prints any integer with _putchar
+ * print_number - prints any integer with putchar
  * @n: number to prints
  *
  * Return: Nonthing
